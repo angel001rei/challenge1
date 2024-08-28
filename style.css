@@ -1,0 +1,44 @@
+body{
+    background:#f3f5fc;
+}
+
+header{
+    background-color: aliceblue;
+}
+.header{
+    background-color: antiquewhite;
+    width: 90%;
+    margin: auto;
+}
+.header__logo{
+    margin-top: auto;
+}
+
+.main{
+    background-color: #f3f5fc;
+    width: 85%;
+    margin: auto 40 auto auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.izquierda{
+    background-color: blueviolet;
+    height: 670px;
+}
+.ingrese__texto{
+    width: 80%;
+    font-size: 32px;
+    color: blue;
+}
+
+
+.derecha{
+    background-color: blue; 
+    height: auto;
+}
+
+@media screen and (max-width: 770px){
+    .main{
+        grid-template-columns: 1fr;
+    }
+}
